@@ -1,6 +1,6 @@
 {
   "name": "ng-zorro-antd-en",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "ISC",
   "description": "An enterprise-class UI components based on Ant Design and Angular",
   "scripts": {
@@ -29,10 +29,10 @@
   "homepage": "https://ng.ant.design",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NG-ZORRO/ng-zorro-antd.git"
+    "url": "git+https://github.com/thuannhtech/ng-zorro-antd-en.git"
   },
   "bugs": {
-    "url": "https://github.com/NG-ZORRO/ng-zorro-antd/issues"
+    "url": "https://github.com/thuannhtech/ng-zorro-antd-en/issues"
   },
   "dependencies": {
     "@angular/cdk": "2.0.0-beta.8",
