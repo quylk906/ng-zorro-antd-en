@@ -71,8 +71,8 @@ import { ConnectionPositionPair } from '../core/overlay/index';
                 <a class="ant-calendar-prev-year-btn" title="last year" (click)="_preYear()"></a>
                 <a class="ant-calendar-prev-month-btn" title="last month" (click)="_preMonth()"></a>
                 <span class="ant-calendar-ym-select">
-                <a class="ant-calendar-month-select" title="select month" (click)="_changeMonthView()">{{_showMonth + 1}}月</a>
-                <a class="ant-calendar-year-select" title="select year" (click)="_changeDecadeView($event)">{{_showYear}}年</a>
+                <a class="ant-calendar-month-select" title="select month" (click)="_changeMonthView()">{{_showMonth + 1}}Month</a>
+                <a class="ant-calendar-year-select" title="select year" (click)="_changeDecadeView($event)">{{_showYear}}Year</a>
                 </span>
                 <a class="ant-calendar-next-month-btn" title="next month" (click)="_nextMonth()"></a>
                 <a class="ant-calendar-next-year-btn" title="next year" (click)="_nextYear()"></a>

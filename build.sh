@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-readonly currentDir=$(cd $(dirname $0); pwd)
-cd ${currentDir}
-rm -rf publish
-cp -r src/components src/__gen_components
+# readonly currentDir=$(cd $(dirname $0); pwd)
+# cd ${currentDir}
 node ./less.convert.js
 
 echo 'Generating entry file using Angular compiler'
