@@ -3,7 +3,7 @@
 # readonly currentDir=$(cd $(dirname $0); pwd)
 # cd ${currentDir}
 cp -r src/components src/__gen_components
-
+rm -rf publish
 node ./less.convert.js
 
 echo 'Generating entry file using Angular compiler'

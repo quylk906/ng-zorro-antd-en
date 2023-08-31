@@ -13,6 +13,7 @@ let globals = {
   '@angular/platform-browser': 'ng.platformBrowser',
   'moment': 'moment',
   'moment/locale/zh-cn': null,
+  'moment/locale/en-sg': null,
   'rxjs/BehaviorSubject': 'Rx',
   'rxjs/Observable': 'Rx',
   'rxjs/Subject': 'Rx',

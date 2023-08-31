@@ -71,16 +71,16 @@ import { ConnectionPositionPair } from '../core/overlay/index';
                 <a class="ant-calendar-prev-year-btn" title="last year" (click)="_preYear()"></a>
                 <a class="ant-calendar-prev-month-btn" title="last month" (click)="_preMonth()"></a>
                 <span class="ant-calendar-ym-select">
-                <a class="ant-calendar-month-select" title="select month" (click)="_changeMonthView()">{{_showMonth + 1}}Month</a>
-                <a class="ant-calendar-year-select" title="select year" (click)="_changeDecadeView($event)">{{_showYear}}Year</a>
+                <a class="ant-calendar-month-select" title="select month" (click)="_changeMonthView()">{{_showMonth + 1}}</a>
+                <a class="ant-calendar-year-select" title="select year" (click)="_changeDecadeView($event)">{{_showYear}}</a>
                 </span>
                 <a class="ant-calendar-next-month-btn" title="next month" (click)="_nextMonth()"></a>
                 <a class="ant-calendar-next-year-btn" title="next year" (click)="_nextYear()"></a>
               </div>
               <div style="position: relative;" *ngIf="_mode=='time'">
                 <span class="ant-calendar-my-select">
-                  <a class="ant-calendar-year-select" title="Choose a month">{{_selectedYear}}Year</a>
-                  <a class="ant-calendar-month-select" title="Choose a month">{{_showMonth + 1}}Month</a>
+                  <a class="ant-calendar-year-select" title="Choose a month">{{_selectedYear}}</a>
+                  <a class="ant-calendar-month-select" title="Choose a month">{{_showMonth + 1}}</a>
                   <a class="ant-calendar-day-select">{{_selectedDate}}Day</a>
                 </span>
               </div>

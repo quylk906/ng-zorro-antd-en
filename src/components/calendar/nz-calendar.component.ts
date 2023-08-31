@@ -12,7 +12,7 @@ import {
 
 import * as moment from 'moment';
 import { Moment } from 'moment';
-import 'moment/locale/zh-cn';
+import 'moment/locale/en-sg';
 
 export interface MonthInterface {
   index: number;
@@ -207,7 +207,7 @@ export class NzCalendarComponent implements OnInit {
   _showMonth = moment(new Date()).month();
   _showYear = moment(new Date()).year();
   _value: Date = new Date();
-  _locale = 'zh-cn';
+  _locale = 'en-sg';
   @ContentChild('dateCell') dateCell: TemplateRef<any>;
   @ContentChild('monthCell') monthCell: TemplateRef<any>;
 

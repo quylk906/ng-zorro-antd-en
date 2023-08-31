@@ -80,10 +80,10 @@ function processLess() {
         }, function (e, output) {
           lessFilePool[index] = output.css.replace(/\\e/g, function (match, e) {
             // 对content中的类似'\e630'中的\e进行处理
-            return '\\\\C';
+            return '\\\\E';
           }).replace(/\\E/g, function (match, e) {
             // 对content中的类似'\E630'中的\E进行处理
-            return '\\\\C';
+            return '\\\\E';
           }).replace(/\\20/g, function (match, e) {
             // 对content中的类似'\20'中的\20进行处理
             return '\\\\20';
